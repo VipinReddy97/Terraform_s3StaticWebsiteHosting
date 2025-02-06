@@ -19,7 +19,13 @@ This project demonstrates how to **automate static website hosting** using **AWS
 - **AWS Route 53** *(Optional)* – Custom domain support.
 
 ## 📂 Project Structure
-📁 terraform-s3-static-website/ │── 📄 main.tf # Terraform configuration for S3, IAM & hosting │── 📄 variables.tf # Configurable variables │── 📄 outputs.tf # Terraform outputs (website URL) │── 📄 index.html # Sample homepage content │── 📄 error.html # Custom error page │── 📄 README.md # Project documentation
+📁 terraform-s3-static-website/ │── 
+📄 main.tf  # Terraform configuration for managing & provisioning resources 
+📄 variables.tf # Configurable variables 
+📄 outputs.tf # Terraform outputs (website URL - http://simples3hostingwithterraform.s3-website-us-east-1.amazonaws.com/)  
+📄 index.html # Sample homepage content  
+📄 error.html # Custom error page 
+📄 README.md # Project documentation
 
 
 
